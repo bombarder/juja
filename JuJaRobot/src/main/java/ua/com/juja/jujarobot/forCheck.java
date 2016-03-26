@@ -16,7 +16,7 @@ public class forCheck {
         int fstIndex = 0;
         int sndIndex = 0;
 
-        while (fstIndex + sndIndex != result.length) {
+        while (fstIndex + sndIndex != result.length-1) {
             if (fst[fstIndex] < snd[sndIndex]) {
                 result[fstIndex + sndIndex] = fst[fstIndex++];
             } else {
