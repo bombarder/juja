@@ -3,9 +3,8 @@ package ua.com.juja.jujarobot;
 public class forCheck {
 
     public static void main(String[] args) {
-
-        int [] nums = {1,2,3,4,5,6,7,8,9};
-        int [] nums2 = {7,5,4,6,9,2,3,4,5};
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] nums2 = {7, 5, 4, 6, 9, 2, 3, 4, 5};
         merge(nums, nums2);
 
     }
