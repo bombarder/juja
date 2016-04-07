@@ -1,16 +1,22 @@
 package ua.com.juja.jujarobot;
 
+import java.util.Arrays;
+
 public class SelectionSorter {
 
     public static void sort(int[] arr) {
-        for (int barrier = 0; barrier < arr.length - 1; barrier++) {
-            for (int index = barrier + 1; index < arr.length; index++) {
-                if (arr[barrier] > arr[index]) {
-                    int tmp = arr[index];
-                    arr[index] = arr[barrier];
-                    arr[barrier] = tmp;
-                }
+
+
+        for (int i = 1; i < arr.length; i++) {
+            int newElement = arr[i];
+            int location = i - 1;
+            while (location >= 0 && arr[location] > newElement) {
+                arr[location + 1] = arr[location];
+                location--;
             }
+            arr[location + 1] = newElement;
+            System.out.println(Arrays.toString(arr));
         }
+
     }
 }
