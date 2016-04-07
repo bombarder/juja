@@ -16,6 +16,7 @@ public class SelectionSorter {
             }
             arr[location + 1] = newElement;
             System.out.println(Arrays.toString(arr));
+
         }
 
     }
