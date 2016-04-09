@@ -6,7 +6,6 @@ public class SelectionSorter {
 
     public static void sort(int[] arr) {
 
-
         for (int i = 1; i < arr.length; i++) {
             int newElement = arr[i];
             int location = i - 1;

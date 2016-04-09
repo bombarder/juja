@@ -8,7 +8,7 @@ public class SelectionSorterTest1 {
     public static void main(String[] args) {
         // fill random elements
         Random rnd = new Random(0);
-        int[] array = new int[10];
+        int[] array = new int[5];
         for (int i = 0; i < array.length; i++) {
             array[i] = rnd.nextInt(1000);
         }
