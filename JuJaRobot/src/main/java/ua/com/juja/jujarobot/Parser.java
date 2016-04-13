@@ -1,8 +1,6 @@
 package ua.com.juja.jujarobot;
 
-/**
- * Created by nmakarov on 4/13/2016.
- */
+
 public class Parser {
     public static int eval(String expr) {
         return eval(expr, 0, expr.length());
