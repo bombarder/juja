@@ -1,8 +1,6 @@
 package ua.com.juja.jujarobot;
 
-/**
- * Created by nmakarov on 4/13/2016.
- */
+
 public class ParserTestJuja {
 
     public static void main(String[] args) {

@@ -7,26 +7,26 @@ public class Parser {
     }
 
     private static int eval(String expr, int from, int to) {
-        if (expr.charAt(from) == '(') {
+        if (expr.charAt(to) == ')') {
             return eval(expr, from + 1, to - 1);
         } else {
-            int pos = from;
-            while (pos < to) {
+            int pos = to -1;
+            while (pos > from) {
                 if (Character.isDigit(expr.charAt(pos))) {
-                    pos++;
+                    pos--;
                 } else {
-                    int leftOperand = Integer.valueOf(expr.substring(from, pos));
+                    int right = Integer.valueOf(expr.substring(pos, to - 1));
                     char operation = expr.charAt(pos);
-                    int rightOperand = eval(expr, pos + 1, to);
+                    int left = eval(expr, pos - 1, from);
                     switch (operation) {
                         case '+':
-                            return leftOperand + rightOperand;
+                            return right + left;
                         case '-':
-                            return leftOperand - rightOperand;
+                            return right - left;
                         case '*':
-                            return leftOperand * rightOperand;
+                            return right * left;
                         case '/':
-                            return leftOperand / rightOperand;
+                            return right / left;
                     }
                 }
             }
