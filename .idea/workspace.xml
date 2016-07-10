@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b013b320-b0e5-4a69-bdc9-8281292f3579" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Laboratory/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Laboratory/Issue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Laboratory/Journal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Laboratory/Library.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Laboratory/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Laboratory/Test2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/AbstractShip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/Cargo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/Liner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/OdessaSeaPort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/SeaPortQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/Tanker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/Test2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/Port/Test3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/FibonacchiExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/IntegerUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Issue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Test2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/testLab5.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/BitUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/bitUtilsTest1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/forCheck.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/App.java" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTest2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTest3.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTestJuja.java" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTestJuja.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTestMy.java" afterPath="$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTestMy.java" />
     </list>
     <ignored path="juja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,8 +54,8 @@
       <file leaf-file-name="OdessaSeaPort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JuJaRobot/src/main/java/Port/OdessaSeaPort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="675">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -255,6 +232,70 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Juja" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jujarobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Port" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Laboratory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -715,68 +756,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTestMy.java</url>
-          <line>10</line>
+          <line>8</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTestMy.java</url>
-          <line>11</line>
+          <line>9</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/ParserTestMy.java</url>
-          <line>7</line>
+          <line>5</line>
           <properties class="ua.com.juja.jujarobot.ParserTestMy" method="main" />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
@@ -905,14 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,10 +1170,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JuJaRobot/src/main/java/ua/com/juja/jujarobot/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JuJaRobot/src/main/java/Port/OdessaSeaPort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="675">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
