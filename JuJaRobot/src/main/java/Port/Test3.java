@@ -34,15 +34,15 @@ public class Test3{
         odessaSeaPort.addShipToEndQueue(testLiner);
         odessaSeaPort.addShipToEndQueue(testTanker);
 
-
         int actualSuccessfulStatusRemoveShipInQueue = odessaSeaPort.removeShipFromBeginQueue();
+
         if (actualSuccessfulStatusRemoveShipInQueue != expectedSuccessfulStatusRemoveShipInQueue)
             throw new AssertionError("Successful status remove ship in queue 1 but found " + actualSuccessfulStatusRemoveShipInQueue);
 
         String actualPrintShipQueueAfterRemove = odessaSeaPort.printQueueShip();
+
         if(!(actualPrintShipQueueAfterRemove.equals(expectedResultPrintShipQueueAfterRemove)))
             throw new AssertionError("Expected to be printed " + expectedResultPrintShipQueueAfterRemove + " but found " + actualPrintShipQueueAfterRemove);
-
 
         System.out.print("OK");
     }
