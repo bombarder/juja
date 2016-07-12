@@ -46,10 +46,12 @@ public class OdessaSeaPort implements SeaPortQueue {
         } else {
             AbstractShip tmpShip;
             for (int i = 0; i < arrayShips.length - 1; i++) {
-                if (arrayShips[i].calculatePayment() > arrayShips[i+1].calculatePayment()){
-                    tmpShip = arrayShips[i];
-                    arrayShips[i] = arrayShips[i + 1];
-                    arrayShips[i + 1] = tmpShip;
+                for (int j = 1; j< arrayShips.length; j++) {
+                    if (arrayShips[i].calculatePayment() > arrayShips[j].calculatePayment()) {
+                        tmpShip = arrayShips[i];
+                        arrayShips[i] = arrayShips[j];
+                        arrayShips[j] = tmpShip;
+                    }
                 }
             }
 
