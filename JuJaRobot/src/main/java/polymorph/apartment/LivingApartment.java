@@ -1,9 +1,8 @@
 package polymorph.apartment;
 
 import polymorph.Owner;
-import  polymorph.Room;
+import polymorph.Room;
 import polymorph.RoomType;
-
 
 public class LivingApartment extends Apartment {
 
@@ -60,7 +59,7 @@ public class LivingApartment extends Apartment {
                 result += "\t\t\t" + owner.toString() + "\n";
             }
         }
-        result += "\t\tMy free status is:" + isFree()+ "\n";
+        result += "\t\tMy free status is:" + isFree() + "\n";
         return result;
     }
 }

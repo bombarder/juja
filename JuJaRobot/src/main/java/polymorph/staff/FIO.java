@@ -2,11 +2,15 @@ package polymorph.staff;
 
 public class FIO {
 
-    private String name;
+    private String firstName;
     private String secondName;
 
-    public FIO(String name, String secondName) {
-        this.name = name;
-        this.name = secondName;
+    public FIO(String firstName, String secondName) {
+        this.firstName = firstName;
+        this.secondName = secondName;
+    }
+
+    public String toString(){
+        return firstName + " " + secondName;
     }
 }
