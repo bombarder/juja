@@ -2,7 +2,7 @@ package polymorph;
 
 import polymorph.apartment.Apartment;
 
-public class Room /* extends Object */{
+public class Room {
     private Apartment apartment;
     private RoomType type;
     private Object[] objects;

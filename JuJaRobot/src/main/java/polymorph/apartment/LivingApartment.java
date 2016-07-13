@@ -1,12 +1,10 @@
 package polymorph.apartment;
 
-import ua.com.juja.a7_polymorph.asd.Owner;
-import ua.com.juja.a7_polymorph.asd.Room;
-import ua.com.juja.a7_polymorph.asd.RoomType;
+import polymorph.Owner;
+import  polymorph.Room;
+import polymorph.RoomType;
 
-/**
- * Created by indigo on 31.07.2015.
- */
+
 public class LivingApartment extends Apartment {
 
     private Owner[] owners;

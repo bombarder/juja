@@ -1,6 +1,6 @@
 package polymorph.apartment;
 
-import ua.com.juja.a7_polymorph.asd.staff.HousemaidTools;
+import polymorph.staff.HousemaidTools;
 
 public class TechnicalApartment extends Apartment {
 

@@ -19,7 +19,7 @@ public class Housemaid {
             TechnicalApartment techApartment = (TechnicalApartment)floor.getApartments()[0];
             tools = techApartment.getTools();
         }
-        for (Room room : apartment.getRooms()) {
+        for (Room room: apartment.getRooms()) {
             tools.clean(room);
         }
     }

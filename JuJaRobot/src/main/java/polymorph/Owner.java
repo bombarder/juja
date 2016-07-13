@@ -1,6 +1,6 @@
 package polymorph;
 
-import ua.com.juja.JujaRobot.FIO;
+import polymorph.staff.FIO;
 
 public class Owner {
     private FIO fio;

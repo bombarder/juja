@@ -1,6 +1,6 @@
 package polymorph.apartment;
 
-import ua.com.juja.a7_polymorph.asd.Room;
+import polymorph.Room;
 
 public abstract class Apartment {
 
