@@ -2,6 +2,6 @@ package polymorph;
 
 public enum RoomType {
 
-    LIVING_ROOM, KITCHEN, BEDROOM, TOILET;
+    LIVING_ROOM, KITCHEN, BEDROOM, TOILET
 
 }

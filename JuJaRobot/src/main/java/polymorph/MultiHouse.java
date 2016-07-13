@@ -2,6 +2,10 @@ package polymorph;
 
 import polymorph.apartment.LivingApartment;
 import polymorph.apartment.Apartment;
+import polymorph.staff.BadHousemaid;
+import polymorph.staff.Housemaid;
+
+import java.util.Random;
 
 public class MultiHouse {
 
@@ -11,7 +15,17 @@ public class MultiHouse {
     public MultiHouse(int countFloors) {
         floors = new Floor[countFloors];
         for (int i = 0; i < countFloors; i++) {
-            floors[i] = new Floor(i + 1, DEFAULT_FLOOR_CAPACITY);
+            Housemaid housemaid = findHousemaid();
+            floors[i] = new Floor(i + 1, DEFAULT_FLOOR_CAPACITY, housemaid);
+            housemaid.setFloor(floors[i]);
+        }
+    }
+
+    private Housemaid findHousemaid() {
+        if (new Random().nextBoolean()){
+            return new Housemaid();
+        }else {
+            return new BadHousemaid();
         }
     }
 

@@ -13,14 +13,15 @@ public class Floor {
     private Apartment[] apartments;
     private Housemaid housemaid;
 
-    public Floor(int number, int capacity) {
+    public Floor(int number, int capacity, Housemaid housemaid) {
         this.number = number;
+        this.housemaid = housemaid;
         apartments = new Apartment[capacity];
         apartments[0] = new TechnicalApartment(NumberGenerator.next(), DEFAULT_APARTMENT_CAPACITY);
         for (int i = 1; i < capacity; i++) {
             apartments[i] = new LivingApartment(NumberGenerator.next(), DEFAULT_APARTMENT_CAPACITY);
         }
-        housemaid = new Housemaid(this);
+
     }
 
     public String toString() {
