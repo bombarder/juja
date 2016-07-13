@@ -1,4 +1,4 @@
-package ua.com.juja.a7_polymorph.asd.apartment;
+package polymorph.apartment;
 
 public class YahooApartment extends Apartment {
     public YahooApartment(int number, int capacity) {

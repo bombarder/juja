@@ -1,10 +1,7 @@
-package ua.com.juja.a7_polymorph.asd;
+package polymorph;
 
-import ua.com.juja.a6_oop.FIO;
+import polymorph.staff.FIO;
 
-/**
- * Created by indigo on 31.07.2015.
- */
 public class Main extends Object {
     public static void main(String[] args) {
         MultiHouse multiHouse = new MultiHouse(2);

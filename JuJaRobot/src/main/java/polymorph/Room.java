@@ -1,6 +1,6 @@
-package ua.com.juja.a7_polymorph.asd;
+package polymorph;
 
-import ua.com.juja.a7_polymorph.asd.apartment.Apartment;
+import polymorph.apartment.Apartment;
 
 public class Room /* extends Object */{
     private Apartment apartment;

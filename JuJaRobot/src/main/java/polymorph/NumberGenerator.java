@@ -1,4 +1,4 @@
-package ua.com.juja.a7_polymorph.asd;
+package polymorph;
 
 /**
  * Created by indigo on 31.07.2015.

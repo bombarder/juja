@@ -1,13 +1,10 @@
-package ua.com.juja.a7_polymorph.asd;
+package polymorph;
 
-import ua.com.juja.a7_polymorph.asd.apartment.Apartment;
-import ua.com.juja.a7_polymorph.asd.apartment.LivingApartment;
-import ua.com.juja.a7_polymorph.asd.apartment.TechnicalApartment;
-import ua.com.juja.a7_polymorph.asd.staff.Housemaid;
+import polymorph.apartment.Apartment;
+import polymorph.apartment.LivingApartment;
+import polymorph.apartment.TechnicalApartment;
+import polymorph.staff.Housemaid;
 
-/**
- * Created by indigo on 31.07.2015.
- */
 public class Floor {
 
     private static final int DEFAULT_APARTMENT_CAPACITY = 5;
@@ -32,23 +29,6 @@ public class Floor {
             result += apartment.toString() + "\n";
         }
 
-//        for (int apartmentType : apartmentTypes) {
-//            if (apartmentType == LIVING_APARTMENT) {
-//                result +=  LivingApartment.toString();
-//            } else if (apartmentType == QWE_APARTMENT) {
-//                result +=  TechnicalApartment.toString();
-//            } else if (apartmentType == ASD_APARTMENT) {
-//                result +=  TechnicalApartment.toString();
-//            } else if (apartmentType == sfddfsdL_APARTMENT) {
-//                result +=  TechnicalApartment.toString();
-//            } else if (apartmentType == TECHNICAL_APARTMENT) {
-//                result +=  TechnicalApartment.toString();
-//            } else if (apartmentType == TECHNICAL_APARTMENT) {
-//                result +=  TechnicalApartment.toString();
-//            } else if (apartmentType == TECHNICAL_APARTMENT) {
-//                result +=  TechnicalApartment.toString();
-//            }
-//        }
         return result;
     }
 

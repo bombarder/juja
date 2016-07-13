@@ -1,11 +1,8 @@
-package ua.com.juja.a7_polymorph.asd;
+package polymorph;
 
-import ua.com.juja.a7_polymorph.asd.apartment.LivingApartment;
-import ua.com.juja.a7_polymorph.asd.apartment.Apartment;
+import polymorph.apartment.LivingApartment;
+import polymorph.apartment.Apartment;
 
-/**
- * Created by indigo on 31.07.2015.
- */
 public class MultiHouse {
 
     private static final int DEFAULT_FLOOR_CAPACITY = 4;

@@ -1,4 +1,4 @@
-package ua.com.juja.a7_polymorph.asd.apartment;
+package polymorph.apartment;
 
 import ua.com.juja.a7_polymorph.asd.Owner;
 import ua.com.juja.a7_polymorph.asd.Room;

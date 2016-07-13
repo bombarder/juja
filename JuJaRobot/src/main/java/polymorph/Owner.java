@@ -1,10 +1,7 @@
-package ua.com.juja.a7_polymorph.asd;
+package polymorph;
 
-import ua.com.juja.a6_oop.FIO;
+import ua.com.juja.JujaRobot.FIO;
 
-/**
- * Created by indigo on 31.07.2015.
- */
 public class Owner {
     private FIO fio;
 
