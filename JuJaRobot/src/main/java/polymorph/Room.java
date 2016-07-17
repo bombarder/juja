@@ -5,11 +5,11 @@ import polymorph.apartment.Apartment;
 public class Room {
     private Apartment apartment;
     private RoomType type;
-    private Object[] objects;
+    private MyArray objects;
 
     public Room(RoomType type, Apartment apartment) {
         this.apartment = apartment;
-        objects = new Object[1000];
+        objects = new MyArray(1000);
         this.type = type;
     }
 

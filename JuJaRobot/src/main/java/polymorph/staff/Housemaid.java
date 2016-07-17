@@ -15,8 +15,8 @@ public class Housemaid {
             TechnicalApartment techApartment = (TechnicalApartment)floor.getApartments()[0];
             tools = techApartment.getTools();
         }
-        for (Room room: apartment.getRooms()) {
-            tools.clean(room);
+        for (Object room: apartment.getRooms().getArray()) {
+            tools.clean((Room) room);
         }
     }
     public void setFloor(Floor floor){

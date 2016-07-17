@@ -10,35 +10,35 @@ public class Floor {
     private static final int DEFAULT_APARTMENT_CAPACITY = 5;
 
     private int number;
-    private Apartment[] apartments;
+    private MyArray apartments;
     private Housemaid housemaid;
 
     public Floor(int number, int capacity, Housemaid housemaid) {
         this.number = number;
         this.housemaid = housemaid;
-        apartments = new Apartment[capacity];
-        apartments[0] = new TechnicalApartment(NumberGenerator.next(), DEFAULT_APARTMENT_CAPACITY);
+        apartments = new MyArray();
+        apartments.add(new TechnicalApartment(NumberGenerator.next(), DEFAULT_APARTMENT_CAPACITY));
         for (int i = 1; i < capacity; i++) {
-            apartments[i] = new LivingApartment(NumberGenerator.next(), DEFAULT_APARTMENT_CAPACITY);
+            apartments.add(new LivingApartment(NumberGenerator.next(), DEFAULT_APARTMENT_CAPACITY));
         }
-
     }
 
     public String toString() {
         String result = "\tHi, I am floor #" + number + " with:\n";
-        for (Apartment apartment : apartments) {
+        for (Object apartment : apartments.getArray()) {
             result += apartment.toString() + "\n";
         }
 
         return result;
     }
 
-    public Apartment[] getApartments() {
-        return apartments;
+    public Object[] getApartments() {
+        return apartments.getArray();
     }
 
     public Apartment getFreeApartment() {
-        for (Apartment apartment : apartments) {
+        for (Object object : apartments.getArray()) {
+            Apartment apartment = (Apartment)object;
             if (apartment.isFree()) {
                 housemaid.clean(apartment);
                 return apartment;
